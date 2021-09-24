@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Robert Kolski</Authors>
+    <Company>Akeraiotitasoft LLC</Company>
+    <Copyright>Copyright 2021 Akeraiotitasoft LLC</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>akeraiotitasoft.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/Akeraiotitasoft/Command</RepositoryUrl>
+    <RepositoryType />
+    <PackageTags>di, command, pattern</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Akeraiotitasoft.Command.Abstractions\Akeraiotitasoft.Command.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\akeraiotitasoft.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
